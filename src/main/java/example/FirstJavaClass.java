@@ -6,5 +6,6 @@ public class FirstJavaClass {
     {
         //this will print the text in the console
         System.out.println("Hello world!");
+        //new changes...
     }
 }
