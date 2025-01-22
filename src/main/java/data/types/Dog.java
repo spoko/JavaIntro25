@@ -18,4 +18,9 @@ public class Dog {
         System.out.println("Dog age is: " + age);
         System.out.println("Dog breed is: " + breed);
     }
+
+    public void printDogDetailsFormatted(){
+        //System.out.println(String.format("Dog name is %s, age is %d and breed is %s.", name, age, breed));
+        System.out.printf("Dog name is %s, age is %d and breed is %s.\n", name, age, breed);
+    }
 }

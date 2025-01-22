@@ -35,6 +35,8 @@ public class VariablesDemo {
 
         System.out.println("Sharo details:");
         sharo.printDogDetails();//
+        System.out.println("-------------------");
+        frenchBulldog.printDogDetailsFormatted();
 
         System.out.println("-------------------");
 
@@ -42,5 +44,6 @@ public class VariablesDemo {
         System.out.println(frenchBulldog.dogCount);//0
         System.out.println(sharo.dogCount);//0
         System.out.println(Dog.dogCount);//2
+
     }
 }
