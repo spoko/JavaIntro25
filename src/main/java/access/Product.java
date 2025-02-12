@@ -9,4 +9,5 @@ public class Product {
     public final void printProductNames(){
         System.out.printf("Names are: %s, %s, %s, %s%n",protectedName, publicName, privateName, defaultName);
     }
+    ///
 }
